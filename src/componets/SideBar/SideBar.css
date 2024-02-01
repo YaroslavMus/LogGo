@@ -1,0 +1,19 @@
+.logo_wraper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background: rgb(39, 41, 50);
+	height: 100%;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+	text-decoration: none;
+}
+.logowraper svg path {
+	fill:#8F8F8F;
+}
