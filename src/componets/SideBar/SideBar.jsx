@@ -1,5 +1,6 @@
 import React from 'react'
 import './SideBar.css'
+import '../../fonts/BakbakOne-Regular.ttf'
 
 function SideBar() {
 	return (

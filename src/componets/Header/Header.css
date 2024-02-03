@@ -1,0 +1,4 @@
+.header_wraper{
+	display: flex;
+	flex-direction: row;
+}

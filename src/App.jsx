@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import SideBar from './componets/SideBar/SideBar'
+import Header from './componets/Header/Header'
+import Main from './componets/Main/Main'
 
 function App() {
 
@@ -8,8 +10,8 @@ function App() {
 		<>
 			<div className="main_wraper">
 				<SideBar />
-				<header></header>
-				<main></main>
+				<Header />
+				<Main />
 			</div>
 		</>
 	)
