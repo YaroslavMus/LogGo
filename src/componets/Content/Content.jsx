@@ -1,8 +1,8 @@
 import React from 'react'
-import './Main.css'
+import './Content.css'
 
 export default function Main() {
 	return (
-		<div className='main_wraper'></div>
+		<div className='content_wraper'></div>
 	)
 }
