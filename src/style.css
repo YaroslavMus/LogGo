@@ -159,7 +159,9 @@
 	grid-area: content_wraper;
 	width: 100%;
 	height: 100%;
+	padding-right: 30px;
 }
 .header_wraper{
 	grid-area: header_wraper;
+	padding-right: 30px;
 }
