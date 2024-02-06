@@ -3,27 +3,47 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	background: rgb(39, 41, 50);
+	background: var(--mainGrey);
 	height: 100%;
+	margin-right: 40px ;
 }
-ul{
+
+
+.logo_wraper ul{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	gap: 110px;
-	padding:0;
+	gap: 45px;
+	padding: 0 20px;
 	margin:0;
 }
-li{
+
+
+.logo_wraper li{
 	list-style: none;
 	text-decoration: none;
 }
-.logowraper svg path {
+
+
+.logo_wraper ul li:last-child{
+	padding-top: 45px;
+	border-top: 1px solid rgb(143, 143, 143);
+}
+
+
+.logo_wraper svg path {
 	fill:#8F8F8F;
 }
-h1 {
+
+
+.logo_wraper a {
+	margin-top: 2%;
+	padding: 0 30px 0 40px;
 	font-family: BakbakOne-Regular;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: large;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 31px;
+	text-decoration: none;
 }

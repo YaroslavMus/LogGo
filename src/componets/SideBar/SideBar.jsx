@@ -5,7 +5,7 @@ import '../../fonts/BakbakOne-Regular.ttf'
 function SideBar() {
 	return (
 		<div className='logo_wraper'>
-			<h1>logo</h1>
+			<a href="">logo</a>
 			<nav>
 				<ul>
 					<li>
