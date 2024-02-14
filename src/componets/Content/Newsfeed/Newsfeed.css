@@ -7,7 +7,7 @@
 
 .content_wraper-news h1 {
 	color: rgb(140, 103, 246);
-	font-family: Montserrat;
+	font-family: "Montserrat-ExtraBold";
 	font-size: 12px;
 	line-height: 38px;
 	text-transform: capitalize;
@@ -16,7 +16,7 @@
 
 .content_wraper-news h2 {
 	color: rgb(255, 255, 255);
-	font-family: Bakbak One;
+	font-family: "BakbakOne-Regular";
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 38px;
@@ -25,6 +25,9 @@
 
 .content_wraper p {
 	color: rgba(255, 255, 255, 0.8);
+	font-size: 11px;
+	line-height: 16px;
+	font-family: "Montserrat-Ligh";
 }
 
 .newsfeed_textarea {
