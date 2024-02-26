@@ -9,7 +9,8 @@
 }
 
 .newsfeed_conteiner-navigation {
-	display: block;
+	display: flex;
+	align-items: center;
 	column-gap: 14px;
 }
 
@@ -38,6 +39,22 @@
 	font-family: "Montserrat-Ligh";
 }
 
+.content_wraper-form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--mainBlack);
+	border-radius: 10px;
+	padding: 15px;
+	min-height: 60px;
+	max-height: 100px;
+}
+
+.content_wraper-form>label {
+	width: 100%;
+	display: block
+}
+
 .newsfeed_textarea {
 	background: var(--mainBlack);
 	outline: none;
@@ -45,10 +62,6 @@
 	width: 100%;
 	color: rgb(165, 165, 165);
 	resize: none;
-	border-radius: 10px;
-	padding: 15px 145px 16px 15px;
-	min-height: 60px;
-	max-height: 100px;
 }
 
 .newsfeed_textarea::-webkit-scrollbar {
@@ -57,6 +70,7 @@
 }
 
 .newsfeed_button-create {
+	cursor: pointer;
 	width: 88px;
 	height: 28px;
 	color: rgb(255, 255, 255);
@@ -88,5 +102,34 @@
 }
 
 .newsfeed_input-file {
+
+	position: absolute;
+	top: -1000%;
+	left: -1000%;
+	height: 25px;
+	width: 25px;
 	cursor: pointer;
+	opacity: 0;
+
+}
+
+.newsfeed_conteiner-navigation>label {
+	display: block;
+	position: relative;
+	height: 25px;
+	width: 25px;
+}
+
+.newsfeed_conteiner-navigation>label::after {
+	content: '';
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 25px;
+	width: 25px;
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='12.000000' height='12.000000' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs/%3e%3cpath id='Vector' d='M8.60028 0C10.6339 0 12 1.42676 12 3.55005L12 8.44995C12 10.5732 10.6339 12 8.5997 12L3.39972 12C1.36615 12 0 10.5732 0 8.44995L0 3.55005C0 1.42676 1.36615 0 3.39972 0L8.60028 0ZM9.26196 6.33008C8.61877 5.92871 8.12222 6.49219 7.98828 6.67236C7.85916 6.84644 7.74817 7.03833 7.6311 7.23022C7.34512 7.7041 7.01752 8.25024 6.45038 8.56787C5.62619 9.02417 5.00052 8.60376 4.55042 8.29785C4.3815 8.18384 4.21738 8.07617 4.05386 8.00439C3.65085 7.83032 3.28824 8.02856 2.75003 8.71216C2.46768 9.06934 2.18771 9.42358 1.90414 9.77637C1.73462 9.98755 1.77502 10.3132 2.00369 10.4546C2.36871 10.6792 2.814 10.8 3.3172 10.8L8.37384 10.8C8.65921 10.8 8.94519 10.761 9.2179 10.6719C9.83212 10.4712 10.3196 10.0117 10.5742 9.40503C10.789 8.89478 10.8934 8.27563 10.6925 7.76025C10.6255 7.58936 10.5254 7.43042 10.3848 7.29028C10.0161 6.92456 9.67163 6.58276 9.26196 6.33008ZM3.89932 2.3999C3.07211 2.3999 2.39999 3.073 2.39999 3.8999C2.39999 4.72705 3.07211 5.3999 3.89932 5.3999C4.72589 5.3999 5.39862 4.72705 5.39862 3.8999C5.39862 3.073 4.72589 2.3999 3.89932 2.3999Z' fill='%234E7C3E' fill-opacity='1.000000' fill-rule='nonzero'/%3e%3c/svg%3e ");
 }

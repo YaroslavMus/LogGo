@@ -7,7 +7,7 @@ export default function Newsfeed() {
 			<h1>Newsfeed</h1>
 			<h2>Check what your friends up to!</h2>
 			<p>Conveniently customize proactive web services for leveraged without continualliery aggregate fricctionle ou wellies richard.and very customize  continually.</p>
-			<form >
+			<form className='content_wraper-form' >
 				<label htmlFor="">
 					<textarea placeholder='What’s on your mind , Kevin ?' className='newsfeed_textarea' />
 				</label>
